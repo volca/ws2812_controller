@@ -4,6 +4,7 @@
 #include <Hash.h>
 #include <WiFiUdp.h>
 #include "ws2812_i2s.h"
+#include "app_config.h"
 
 // Set to the number of LEDs in your LED strip
 #define NUM_LEDS 60
@@ -13,8 +14,6 @@
 #define PRINT_FPS 1
 
 // Wifi and socket settings
-const char* ssid     = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
 unsigned int localPort = 7777;
 char packetBuffer[BUFFER_LEN];
 
@@ -23,16 +22,18 @@ static WS2812 ledstrip;
 static Pixel_t pixels[NUM_LEDS];
 WiFiUDP port;
 
+/*
 // Network information
 // IP must match the IP in config.py
 IPAddress ip(192, 168, 0, 150);
 // Set gateway to your router's gateway
 IPAddress gateway(192, 168, 0, 1);
 IPAddress subnet(255, 255, 255, 0);
+*/
 
 void setup() {
     Serial.begin(115200);
-    WiFi.config(ip, gateway, subnet);
+    //WiFi.config(ip, gateway, subnet);
     WiFi.begin(ssid, password);
     Serial.println("");
     // Connect to wifi and print the IP address over serial

@@ -3,3 +3,7 @@ flash:
 
 clean:
 	platformio run -t clean 
+
+monitor:
+	platformio serialports monitor --baud 115200
+
