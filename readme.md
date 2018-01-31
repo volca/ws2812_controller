@@ -14,5 +14,5 @@ The project is migrated from [audio-reactive-led-strip](https://github.com/scott
 
 # Demo (click gif for video)
 
-[![visualizer demo](images/scroll-effect-demo.gif)](https://www.youtube.com/watch?v=HNtM7jH5GXgD)
+[![visualizer demo](https://github.com/scottlawsonbc/audio-reactive-led-strip/raw/master/images/scroll-effect-demo.gif)](https://www.youtube.com/watch?v=HNtM7jH5GXgD)
 
