@@ -11,3 +11,8 @@ The project is migrated from [audio-reactive-led-strip](https://github.com/scott
 * Copy src/app_config.h.template to src/app_config.h.
 * Edit the SSID and password to yours
 * Start compile and upload sketch ```make flash```
+
+# Demo (click gif for video)
+
+[![visualizer demo](images/scroll-effect-demo.gif)](https://www.youtube.com/watch?v=HNtM7jH5GXgD)
+
